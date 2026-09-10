@@ -7,6 +7,9 @@ The system uses rule-based SQL generation for straightforward queries and select
 
 Generated SQL is validated before execution, and invalid queries can be automatically repaired using an LLM-based SQL repair workflow. DuckDB is used as the analytical execution engine, while chart generation is handled through deterministic rule-based visualization logic.
 
+## System Architecture
+
+![End-to-End Workflow](https://github.com/BhaskarKosala/Hybrid-Natural-Language-SQL-Analytics-Visualization-Engine/blob/9f623bfb8a14ec30fe455c158e9b89c2217c0721/%20Project%20Flowchart.png)
 
 ## Key Features
 
