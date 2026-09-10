@@ -155,3 +155,21 @@ The visualization layer can generate charts for different analytical scenarios, 
 This creates a complete analytical workflow:
 
 **Natural Language Question → SQL → Data Result → Visualization**
+
+## Screenshots
+
+### Natural Language Query & SQL Generation
+
+![Natural Language Query and Generated SQL](https://github.com/BhaskarKosala/Hybrid-Natural-Language-SQL-Analytics-Visualization-Engine/blob/82997415ff037e2309008139e45baa6a2af46dc6/Simple%20rule-based%20query.png)
+
+### Complex Analytics — AOV Ranking
+
+![Top Customers per State by AOV](https://github.com/BhaskarKosala/Hybrid-Natural-Language-SQL-Analytics-Visualization-Engine/blob/82997415ff037e2309008139e45baa6a2af46dc6/complex%20sql%20and%20ranking.png)
+
+### Rule-Based Visualization — Bar Chart
+
+![Top Customers by Profit](https://github.com/BhaskarKosala/Hybrid-Natural-Language-SQL-Analytics-Visualization-Engine/blob/82997415ff037e2309008139e45baa6a2af46dc6/Rule-based%20analytical%20visualization.png)
+
+### Numerical Analysis — Correlation Heatmap
+
+![Correlation Heatmap](https://github.com/BhaskarKosala/Hybrid-Natural-Language-SQL-Analytics-Visualization-Engine/blob/82997415ff037e2309008139e45baa6a2af46dc6/Correlation%20heatmap.png)
