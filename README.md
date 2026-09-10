@@ -9,35 +9,27 @@ Generated SQL is validated before execution, and invalid queries can be automati
 
 ## Core Pipeline
 
-User Question
-      ↓
-Intent / Query Detection
-      ↓
- ┌───────────────────┐
- │                   │
-Simple Query     Complex Query
- │                   │
- ↓                   ↓
-Rule-Based       LLM Planner
-SQL Generation   + SQL Generation
- │                   │
- │              SQL Validation
- │                   │
- │             ┌─────┴─────┐
- │             │           │
- │            PASS        FAIL
- │             │           │
- │             │       LLM SQL Repair
- │             │           │
- └─────────────┴───────────┘
-               ↓
-        DuckDB Execution
-               ↓
-          Data Result
-               ↓
-    Rule-Based Visualization
-               ↓
-          Chart / Output
+```mermaid
+flowchart TD
+    A[User Question] --> B[Intent / Query Detection]
+
+    B --> C{Query Complexity}
+
+    C -->|Simple Query| D[Rule-Based SQL Generation]
+    C -->|Complex Query| E[LLM Planner + SQL Generation]
+
+    E --> F[SQL Validation]
+
+    F -->|PASS| G[DuckDB Execution]
+    F -->|FAIL| H[LLM SQL Repair]
+
+    H --> G
+
+    D --> G
+
+    G --> I[Data Result]
+    I --> J[Rule-Based Visualization]
+    J --> K[Chart / Output]
 
 ## Key Features
 
