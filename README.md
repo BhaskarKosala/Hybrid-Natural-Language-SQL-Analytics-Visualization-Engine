@@ -115,13 +115,3 @@ The engine follows a hybrid architecture that combines deterministic logic with 
                          ┌─────────────────┐
                          │ Chart / Renderer│
                          └─────────────────┘
-
-
-### Design Principle
-
-The system deliberately separates deterministic processing from LLM-based reasoning.
-
-Simple queries are handled through predictable rule-based logic, while complex analytical queries are delegated to the LLM. This reduces unnecessary model usage while providing flexibility for queries that require advanced SQL reasoning.
-
-Visualization is also handled independently through deterministic rules, ensuring that chart generation does not depend on LLM output.
-
