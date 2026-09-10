@@ -124,3 +124,34 @@ The system deliberately separates deterministic processing from LLM-based reason
 Simple queries are handled through predictable rule-based logic, while complex analytical queries are delegated to the LLM. This reduces unnecessary model usage while providing flexibility for queries that require advanced SQL reasoning.
 
 Visualization is also handled independently through deterministic rules, ensuring that chart generation does not depend on LLM output.
+
+## How the Hybrid Query Engine Works
+
+The engine uses a hybrid approach to process natural-language analytical questions.
+
+- **Simple queries** are handled using deterministic rule-based SQL generation.
+- **Complex queries** involving CTEs, multi-level aggregation, window functions, ranking, or advanced filtering are routed to an LLM for SQL generation.
+- Generated SQL is **validated before execution**.
+- If validation fails, the SQL is sent to an **LLM-based repair workflow**.
+- Valid SQL is executed using **DuckDB**.
+- The resulting data is passed to a **rule-based visualization layer** for chart generation.
+
+This approach combines the reliability and predictability of deterministic logic with the flexibility of LLM reasoning for complex analytical queries.
+
+## Rule-Based Visualization
+
+The engine includes a deterministic visualization layer that converts analytical query results into appropriate charts based on the query type and resulting data structure.
+
+Chart generation is **rule-based and does not require LLM invocation**.
+
+The visualization layer can generate charts for different analytical scenarios, including:
+
+- Categorical comparisons and rankings
+- Time-series trends
+- Numerical relationships
+- Correlation analysis and heatmaps
+- Part-to-whole analysis
+
+This creates a complete analytical workflow:
+
+**Natural Language Question → SQL → Data Result → Visualization**
