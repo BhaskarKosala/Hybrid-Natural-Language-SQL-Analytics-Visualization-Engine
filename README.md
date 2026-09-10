@@ -173,3 +173,20 @@ This creates a complete analytical workflow:
 ### Numerical Analysis — Correlation Heatmap
 
 ![Correlation Heatmap](https://github.com/BhaskarKosala/Hybrid-Natural-Language-SQL-Analytics-Visualization-Engine/blob/82997415ff037e2309008139e45baa6a2af46dc6/Correlation%20heatmap.png)
+
+## Technology Stack
+
+- **Programming:** Python
+- **Query Language:** SQL
+- **Database / Execution Engine:** DuckDB
+- **AI / LLM:** LLM-based SQL generation and SQL repair
+- **Data Processing:** Pandas
+- **Visualization:** Rule-based chart generation
+- **Application:** Streamlit
+
+## Future Implementations
+
+- Extend the current hybrid engine to support **arbitrary user-provided datasets**. The existing rule-based query routing and processing are designed to be generic, while the current LLM-based SQL generation is configured around the relationships and schemas of the four sample datasets.
+- Make the LLM-based SQL generation **fully dataset-agnostic** by dynamically identifying tables, columns, keys, and relationships from the provided dataset schema instead of relying on predefined relationships.
+- Extend visualization capabilities by introducing **LLM-assisted chart generation**, while retaining the existing rule-based visualization approach for deterministic chart generation.
+- Expand support for additional analytical query patterns and visualization use cases.
