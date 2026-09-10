@@ -7,29 +7,6 @@ The system uses rule-based SQL generation for straightforward queries and select
 
 Generated SQL is validated before execution, and invalid queries can be automatically repaired using an LLM-based SQL repair workflow. DuckDB is used as the analytical execution engine, while chart generation is handled through deterministic rule-based visualization logic.
 
-## Core Pipeline
-
-```mermaid
-flowchart TD
-    A[User Question] --> B[Intent / Query Detection]
-
-    B --> C{Query Complexity}
-
-    C -->|Simple Query| D[Rule-Based SQL Generation]
-    C -->|Complex Query| E[LLM Planner + SQL Generation]
-
-    E --> F[SQL Validation]
-
-    F -->|PASS| G[DuckDB Execution]
-    F -->|FAIL| H[LLM SQL Repair]
-
-    H --> G
-
-    D --> G
-
-    G --> I[Data Result]
-    I --> J[Rule-Based Visualization]
-    J --> K[Chart / Output].
 
 ## Key Features
 
