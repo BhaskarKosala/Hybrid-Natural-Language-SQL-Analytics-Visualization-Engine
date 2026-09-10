@@ -29,7 +29,7 @@ flowchart TD
 
     G --> I[Data Result]
     I --> J[Rule-Based Visualization]
-    J --> K[Chart / Output]
+    J --> K[Chart / Output].
 
 ## Key Features
 
