@@ -1,0 +1,101 @@
+product_id,product_name,category,price
+P0001,Tablet 1,Electronics,1420
+P0002,Headphones 2,Electronics,185
+P0003,Mouse 3,Electronics,1350
+P0004,Headphones 4,Electronics,84
+P0005,Laptop 5,Electronics,850
+P0006,Monitor 6,Electronics,792
+P0007,Keyboard 7,Electronics,994
+P0008,Laptop 8,Electronics,1324
+P0009,Laptop 9,Electronics,1459
+P0010,Smartphone 10,Electronics,189
+P0011,Monitor 11,Electronics,908
+P0012,Mouse 12,Electronics,698
+P0013,Keyboard 13,Electronics,215
+P0014,Keyboard 14,Electronics,107
+P0015,Smartphone 15,Electronics,452
+P0016,Headphones 16,Electronics,1437
+P0017,Keyboard 17,Electronics,993
+P0018,Tablet 18,Electronics,115
+P0019,Laptop 19,Electronics,1421
+P0020,Tablet 20,Electronics,1132
+P0021,Keyboard 21,Electronics,1367
+P0022,Laptop 22,Electronics,387
+P0023,Headphones 23,Electronics,664
+P0024,Laptop 24,Electronics,444
+P0025,Keyboard 25,Electronics,315
+P0026,Cabinet 1,Furniture,177
+P0027,Bookshelf 2,Furniture,352
+P0028,Desk 3,Furniture,1180
+P0029,Cabinet 4,Furniture,1406
+P0030,Bookshelf 5,Furniture,806
+P0031,Desk 6,Furniture,1431
+P0032,Chair 7,Furniture,1045
+P0033,Bookshelf 8,Furniture,129
+P0034,Chair 9,Furniture,915
+P0035,Desk 10,Furniture,175
+P0036,Bookshelf 11,Furniture,1259
+P0037,Cabinet 12,Furniture,688
+P0038,Chair 13,Furniture,1318
+P0039,Bookshelf 14,Furniture,942
+P0040,Cabinet 15,Furniture,487
+P0041,Bookshelf 16,Furniture,1152
+P0042,Cabinet 17,Furniture,904
+P0043,Desk 18,Furniture,1412
+P0044,Cabinet 19,Furniture,195
+P0045,Bookshelf 20,Furniture,524
+P0046,Chair 21,Furniture,188
+P0047,Bookshelf 22,Furniture,335
+P0048,Cabinet 23,Furniture,1477
+P0049,Desk 24,Furniture,817
+P0050,Bookshelf 25,Furniture,758
+P0051,Notebook 1,Office,207
+P0052,Notebook 2,Office,651
+P0053,Stapler 3,Office,757
+P0054,Printer 4,Office,229
+P0055,Pen Set 5,Office,198
+P0056,Pen Set 6,Office,902
+P0057,Stapler 7,Office,1160
+P0058,Stapler 8,Office,231
+P0059,Notebook 9,Office,203
+P0060,Printer 10,Office,1155
+P0061,Notebook 11,Office,1242
+P0062,Printer 12,Office,808
+P0063,Notebook 13,Office,617
+P0064,Stapler 14,Office,814
+P0065,Notebook 15,Office,1165
+P0066,Pen Set 16,Office,1191
+P0067,Pen Set 17,Office,1423
+P0068,Stapler 18,Office,367
+P0069,Pen Set 19,Office,570
+P0070,Printer 20,Office,569
+P0071,Stapler 21,Office,318
+P0072,Notebook 22,Office,362
+P0073,Stapler 23,Office,585
+P0074,Stapler 24,Office,633
+P0075,Stapler 25,Office,177
+P0076,Air Fryer 1,Home,535
+P0077,Vacuum 2,Home,1496
+P0078,Coffee Maker 3,Home,1236
+P0079,Vacuum 4,Home,957
+P0080,Mixer 5,Home,297
+P0081,Air Fryer 6,Home,33
+P0082,Coffee Maker 7,Home,700
+P0083,Coffee Maker 8,Home,694
+P0084,Coffee Maker 9,Home,705
+P0085,Coffee Maker 10,Home,1353
+P0086,Vacuum 11,Home,635
+P0087,Air Fryer 12,Home,1255
+P0088,Vacuum 13,Home,1001
+P0089,Air Fryer 14,Home,383
+P0090,Coffee Maker 15,Home,673
+P0091,Air Fryer 16,Home,1443
+P0092,Coffee Maker 17,Home,1199
+P0093,Vacuum 18,Home,687
+P0094,Coffee Maker 19,Home,594
+P0095,Coffee Maker 20,Home,767
+P0096,Mixer 21,Home,1174
+P0097,Vacuum 22,Home,1232
+P0098,Vacuum 23,Home,1416
+P0099,Mixer 24,Home,965
+P0100,Vacuum 25,Home,917
